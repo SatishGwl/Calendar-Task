@@ -1,0 +1,248 @@
+.blue-btn{
+  padding: 17px 27px;
+    /* border-radius: 100px; */
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border: none;
+    margin: 0 0 0 4px;
+	  cursor: pointer;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.17;
+    color: #e6e6e6;
+    background-color: #0f6ebe;
+}
+button.blue-btn:focus{
+  outline: none;
+}
+.blue-btn:hover{
+	background-color: #098af7;
+	transition: width .3s ease, height .3s 
+}
+
+
+.month-btn{
+  font-family: Poppins;
+  padding: 16px 20px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.06);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.17;
+  color: #999999;
+}
+.month-btn:hover{
+  background-color: #000;
+}
+li.month-btn-style {
+  border-right: 2px solid #000;
+}
+.month-text{
+  font-size: 16px;
+  color: #fff;
+}
+.month-btn>.MuiSvgIcon-root{
+  font-size: 14px;
+	cursor: pointer;
+}
+button.month-btn:focus{
+	outline: none;
+}
+.header-section{
+  
+}
+  .header-section ul{
+    display: flex;
+    list-style: none;
+    margin: 0 0 24px;
+  padding: 0 10px 0 0;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.06);
+}
+.header-section li{
+  
+}
+.dark-color{
+  /* background-color: #121212; */
+}
+/* .custom-search{
+  width: 100%;
+    border-radius: 20px;
+    border: none;
+    padding: 8px;
+    outline:none;
+    background-color: rgba(255, 255, 255, 0.06);
+} */
+.MuiButton-containedSecondary{
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 100px;
+  background-color: #0f6ebe;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+.custom-table tbody td:nth-child(even){
+  margin: 16px 0 0;
+  width: 176px;
+  height: 100px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  line-height: 1.17;
+  letter-spacing: normal;
+  color: #e6e6e6;
+  
+  background-color: rgba(255, 255, 255, 0.06);
+}
+td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-alignCenter{
+  border: 1px solid #000;
+}
+
+.custom-table tbody td{
+  height: 50px;
+  width: 50px;
+}
+.custom-table tbody td:nth-child(odd){
+  margin: 16px 0 0;
+  opacity: 0.4;
+  width: 176px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  height: 100px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  color: #e6e6e6;
+  background-color: rgba(255, 255, 255, 0.06);
+}
+.custom-table tbody td:nth-child(even)::after{
+  width: 3px;
+  height: 74px;
+  margin: 0 12px 0 0;
+  background-color: #0f6ebe;
+}
+
+.custom-table tbody td:hover{
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* .custom-table tbody td:nth-child(even){
+  margin: 16px 0 0;
+  padding: 8px 121px 51px 20px;
+  opacity: 0.4;
+  font-family: Poppins;
+  width: 100px;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  color: #e6e6e6;
+  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  background-color: rgba(255, 255, 255, 0.06);
+} */
+/* .custom-table tbody td:nth-child(odd){
+  width: 100px;
+} */
+.custom-table tbody tr{
+  border: none;
+}
+/* .MuiPaper-root>.MuiPaper-elevation1{
+  padding: 16px 10px 8px;
+  background-color: #121212;
+} */
+.MuiTable-root{
+  padding: 16px 10px 8px;
+  /* background-color: #121212; */
+  border: none;
+}
+.MuiTable-root thead tr th{
+  border: none;
+}
+.MuiTable-root .MuiTableCell-body{
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  line-height: 1.17;
+  letter-spacing: normal;
+  color: #e6e6e6;
+}
+
+/* .MuiTable-root .MuiTableCell-body:nth-child(odd){
+  margin: 16px 0 0;
+  padding: 8px 121px 51px 20px;
+  opacity: 0.4;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  color: #e6e6e6;
+  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  background-color: rgba(255, 255, 255, 0.06);
+}
+.MuiTable-root .MuiTableCell-body:nth-child(even){
+  margin: 16px 0 0;
+  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  color: #e6e6e6;
+  padding: 8px 121px 51px 20px;
+  opacity: 0.8;
+  background-color: rgba(255, 255, 255, 0.06);
+} */
+
+.rowColor>th{
+  margin: 0 50px 16px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: 0.6px;
+  color: #999999;
+}
+.weekly-off{
+  	font-family: Poppins;
+    font-size: 10px;
+/*    font-weight: 300;*/
+    display: flex;
+    padding: 6px 0px;
+    justify-content: center;
+    /* align-items: end; */
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #666666;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

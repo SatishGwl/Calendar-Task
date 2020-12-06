@@ -105,6 +105,7 @@ class Calendar extends React.Component {
                 >
                     {d}
                     {(dayOfWeek === 0 || dayOfWeek === 6 ) && <span className="weekly-off">Weekly off</span>}
+										 
                 </span>
                 </TableCell>
             );

@@ -238,11 +238,19 @@ td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-alignCenter{
 }
 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*Media-Query for 4k screen*/
+@media screen and (min-width: 4001px) {
+	.custom-table tbody td:nth-child(2n+1){
+		width: 50px;
+	}
+	.custom-table tbody td:nth-child(2n-1){
+		width: 50px;
+	}
+    }
+
+/*
+ @media screen and (min-width: 2501px) and (max-width: 4000px) {
+        
+    }
+*/
+
